@@ -1,6 +1,6 @@
 Config = {
     Debug = false, -- Enable to add debug boxes and message.
-    img = "lj-inventory/html/images/", -- Set this to your inventory
+    img = "ps-inventory/html/images/", -- Set this to your inventory
     RandomLocation = true, -- Set to true if you want random location. False = create for each location a blackmarket
     OpenWithItem = false, -- Is there an item needed to open the blackmarket ?
     ItemName = "blackpass", -- If you set the above function to yes, place here your itemname
@@ -35,9 +35,9 @@ Config.Locations = {
 		},
 		["coords"] = {
 			[1] = vector4(763.26, 4175.21, 40.61, 9.13),
-			--[2] = vector4(2473.18, 3735.46, 42.37, 159.88),
-			--[3] = vector4(-98.72, 6373.75, 31.48, 135.59),
-			--[4] = vector4(756.9, -3195.2, 6.07, 84.6),
+			[2] = vector4(2473.18, 3735.46, 42.37, 159.88),
+			[3] = vector4(-98.72, 6373.75, 31.48, 135.59),
+			[4] = vector4(756.9, -3195.2, 6.07, 84.6),
 			},
 		["products"] = Config.Weapons["weapons"],
 		["hideblip"] = true,
